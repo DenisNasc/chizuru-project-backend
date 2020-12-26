@@ -1,6 +1,6 @@
 from flask_restful import Resource, marshal_with, reqparse, fields
 
-from models.ModelUsers import create_users_model
+from src.models.ModelUsers import create_users_model
 
 # SERIALIZANDO OS DADOS DO BANCO DE DADOS
 resource_fields = {

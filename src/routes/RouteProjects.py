@@ -1,6 +1,6 @@
 from flask_restful import Resource, marshal_with, reqparse, fields
 
-from models.ModelProjects import create_projects_model
+from src.models.ModelProjects import create_projects_model
 
 resource_fields = {'id': fields.Integer, 'name': fields.String}
 

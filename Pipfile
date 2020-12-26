@@ -6,15 +6,15 @@ name = "pypi"
 [packages]
 flask = "*"
 flask-restful = "*"
-requests = "*"
 flask-sqlalchemy = "*"
 python-dotenv = "*"
 
 [dev-packages]
 yapf = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
 
 [scripts]
-dev = "python ./src/server.py"
+start = "python main.py"
